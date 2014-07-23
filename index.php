@@ -2,15 +2,15 @@
 /*
 
 Plugin Name: Lorem Ipsum Button
-Plugin URI: http://www.10degrees.co.uk/blog/lorem-ipsum-plugin/
+Plugin URI: http://www.github.com/jonnyvaughan/lorem-ipsum-generator
 Description: Creates a button on the WordPress editor toolbar to insert a configurable amount of Lorem Ipsum placeholder text.
-Version: 0.2.2
+Version: 0.3
 
 Author: Jonny Vaughan
 Author URI: http://twitter.com/jonnyvaughan/
 License: GPL2
 
-Copyright 2011  Jonny Vaughan  (email : jonny@10degrees.co.uk)
+Copyright 2014  Jonny Vaughan  (email : jonny@10degrees.uk)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
@@ -53,4 +53,5 @@ function lorem_ipsum_plugin($plugin_array) {
  
 // init process for button control
 add_action('init', 'lorem_ipsum_addbuttons');
+
 ?>
